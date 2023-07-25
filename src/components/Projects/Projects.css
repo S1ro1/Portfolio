@@ -1,0 +1,16 @@
+.projects-list {
+    text-align: left;
+    list-style-type: disc;
+    padding-left: 3%;
+    @apply text-base font-semibold 
+}
+
+.project-link {
+    text-align: left;
+    transform-origin: left;
+    @apply text-base font-semibold transition ease-in-out duration-500 
+}
+
+.project-link:hover {
+    @apply scale-110
+}

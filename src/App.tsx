@@ -1,11 +1,13 @@
 import "@fontsource/fira-code";
 import "./App.css";
 import "./components/VerticalBlock/VerticalBlock";
+
 import VerticalBlock from "./components/VerticalBlock/VerticalBlock";
 import Footer from "./components/Footer/Footer";
 import About from "./components/About/About";
 import Skills from "./components/Skills/Skills";
 import Header from "./components/Header/Header";
+import Projects from "./components/Projects/Projects";
 
 function App() {
   return (
@@ -24,8 +26,8 @@ function App() {
       />
       <VerticalBlock
         title="Some projects"
-        content={About()}
-        img_path="/logo512.png"
+        content={Projects()}
+        img_path="/icons/projects.png"
       />
       <Footer />
     </div>
