@@ -2,9 +2,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: 90%;
+  min-height: 480px;
 
-  @apply from-blue-950 to-blue-900 m-3 p-5 rounded-2xl shadow-lg border-blue-700 border-solid border-2
+  @apply from-blue-950 to-blue-900 m-3 p-5 rounded-3xl shadow-lg border-blue-700 border-solid border-2 transition duration-500 ease-in-out
+}
+
+.vertical-block:hover {
+  transform: scale(1.02);
 }
 
 .text-vertical-block {
@@ -23,6 +28,14 @@
 
 .img-vertical-block {
   @apply w-1/4;
+}
+
+.img-vertical-block img {
+  width: 256px;
+  height: 256px;
+  display: block;
+  margin: center;
+  @apply p-2
 }
 
 @keyframes typing {

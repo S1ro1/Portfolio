@@ -3,6 +3,10 @@
     @apply text-2xl font-extrabold p-2 m-2
 }
 
+.skills-list ul {
+    @apply list-disc list-inside
+}
+
 .dot-full {
     @apply w-4 h-4 rounded-full border border-white inline-block mx-1 bg-white
 }

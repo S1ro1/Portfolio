@@ -2,9 +2,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
+  width: 90%;
 
-  @apply bg-blue-300 h-40 m-3 p-5 rounded-2xl shadow-lg 
+  @apply bg-blue-300 h-40 m-3 p-5 rounded-3xl shadow-lg transition duration-500 ease-in-out
+}
+
+.footer:hover {
+  transform: scale(1.02);
 }
 
 .footer-item {
@@ -12,7 +16,7 @@
   justify-content: space-between;
   align-items: center;
 
-  @apply font-bold
+  @apply font-bold hover:scale-110 transition duration-500 ease-in-out
 }
 
 .footer-item img {

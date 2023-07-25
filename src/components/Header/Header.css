@@ -1,0 +1,28 @@
+.header {
+display: flex;
+  align-items: left;
+  flex-direction: column;
+  min-height: 240px;
+  width: 90%;
+
+  @apply bg-blue-300 h-40 m-3 p-5 rounded-3xl shadow-lg transition duration-500 ease-in-out
+}
+
+.header:hover {
+  transform: scale(1.02);
+}
+
+.header h1 {
+  text-align: left;
+  @apply text-6xl font-extrabold text-blue-900 pb-8
+}
+
+.header ul {
+  list-style-type: disc;
+  padding-left: 3%;
+}
+
+.header li {
+  text-align: left;
+  @apply text-2xl font-bold text-blue-900
+}
