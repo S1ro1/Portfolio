@@ -1,0 +1,21 @@
+.vertical-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  @apply from-blue-950 to-blue-900 m-3 p-5 rounded-2xl shadow-lg border-blue-700 border-solid border-2
+}
+
+.text-vertical-block {
+  @apply w-3/4 text-white font-bold text-xl
+}
+
+.text-vertical-block p {
+  text-align: left;
+  @apply w-3/4
+}
+
+.img-vertical-block {
+  @apply w-1/4;
+}
