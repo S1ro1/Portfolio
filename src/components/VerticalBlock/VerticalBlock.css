@@ -8,14 +8,28 @@
 }
 
 .text-vertical-block {
-  @apply w-3/4 text-white font-bold text-xl
+  @apply w-3/4 text-white
+}
+
+.text-vertical-block h2 {
+  text-align: left;
+  @apply w-1/4 text-cyan-300 text-6xl font-extrabold m-4 p-2 
 }
 
 .text-vertical-block p {
   text-align: left;
-  @apply w-3/4
+  @apply w-3/4 m-2 p-2 font-semibold text-base
 }
 
 .img-vertical-block {
   @apply w-1/4;
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
 }
